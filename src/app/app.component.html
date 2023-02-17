@@ -1,0 +1,5 @@
+<label>Enter text: </label>
+<input class="input" (input)="text = fromEvent($event)"/>
+<button class="button" (click)="submit()">Translate</button>
+
+<h1>{{translatedText}}</h1>
